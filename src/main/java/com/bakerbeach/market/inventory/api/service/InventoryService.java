@@ -10,7 +10,7 @@ public interface InventoryService {
 
 	TransactionData decrement(Order order) throws InventoryServiceException;
 
-	void confirm(TransactionData transactionData) throws InventoryServiceException;
+	void confirm(TransactionData transactionData, Order order) throws InventoryServiceException;
 
 	void rollBack(TransactionData transactionData) throws InventoryServiceException;
 
