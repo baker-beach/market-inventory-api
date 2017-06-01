@@ -1,8 +1,8 @@
 package com.bakerbeach.market.inventory.api.service;
 
-import com.bakerbeach.market.core.api.model.Order;
 import com.bakerbeach.market.inventory.api.model.InventoryStatus;
 import com.bakerbeach.market.inventory.api.model.TransactionData;
+import com.bakerbeach.market.order.api.model.Order;
 
 public interface InventoryService {
 

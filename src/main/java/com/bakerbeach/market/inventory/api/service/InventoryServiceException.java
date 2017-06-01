@@ -1,8 +1,8 @@
 package com.bakerbeach.market.inventory.api.service;
 
+import com.bakerbeach.market.commons.Message;
+import com.bakerbeach.market.commons.Messages;
 import com.bakerbeach.market.commons.ServiceException;
-import com.bakerbeach.market.core.api.model.Message;
-import com.bakerbeach.market.core.api.model.Messages;
 
 public class InventoryServiceException extends ServiceException {
 
